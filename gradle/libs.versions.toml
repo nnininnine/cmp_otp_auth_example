@@ -13,6 +13,14 @@ composeMultiplatform = "1.10.0"
 junit = "4.13.2"
 kotlin = "2.3.0"
 material3 = "1.10.0-alpha05"
+kotlinStdlib = "2.3.0"
+runner = "1.5.2"
+core = "1.5.0"
+spmForKmp-version = "1.4.7"
+gitlive = "2.4.0"
+gms-version = "4.4.4"
+firebase-bom-version = "34.8.0"
+firebase-auth-ktx-version = "23.2.1"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -32,6 +40,13 @@ compose-material3 = { module = "org.jetbrains.compose.material3:material3", vers
 compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 compose-components-resources = { module = "org.jetbrains.compose.components:components-resources", version.ref = "composeMultiplatform" }
 compose-uiToolingPreview = { module = "org.jetbrains.compose.ui:ui-tooling-preview", version.ref = "composeMultiplatform" }
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlinStdlib" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+androidx-core = { group = "androidx.test", name = "core", version.ref = "core" }
+firebase-auth = { group = "dev.gitlive", name = "firebase-auth", version.ref = "gitlive" }
+firebase-common = { group = "dev.gitlive", name = "firebase-common", version.ref = "gitlive" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebase-auth-ktx-version" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom-version" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
@@ -39,3 +54,9 @@ androidLibrary = { id = "com.android.library", version.ref = "agp" }
 composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
 composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+androidKotlinMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
+androidLint = { id = "com.android.lint", version.ref = "agp" }
+spmForKmp = { id = "io.github.frankois944.spmForKmp", version.ref = "spmForKmp-version" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+gms = { id = "com.google.gms.google-services", version.ref = "gms-version"}
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }

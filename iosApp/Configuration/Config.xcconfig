@@ -1,7 +1,7 @@
 TEAM_ID=
 
 PRODUCT_NAME=cmp_otp_auth_example
-PRODUCT_BUNDLE_IDENTIFIER=org.nnininnine.cmp_otp_auth_example.cmp_otp_auth_example$(TEAM_ID)
+PRODUCT_BUNDLE_IDENTIFIER=org.nnininnine.cmp-otp-auth-example.cmp-otp-auth-example$(TEAM_ID)
 
 CURRENT_PROJECT_VERSION=1
 MARKETING_VERSION=1.0

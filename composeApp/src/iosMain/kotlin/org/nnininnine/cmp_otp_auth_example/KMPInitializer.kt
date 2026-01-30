@@ -1,0 +1,11 @@
+package org.nnininnine.cmp_otp_auth_example
+
+import cocoapods.FirebaseCore.FIRApp
+import kotlinx.cinterop.ExperimentalForeignApi
+
+@OptIn(ExperimentalForeignApi::class)
+fun onDidFinishLaunchingWithOptions() {
+    println("KMP Initializer: Starting setup...")
+    FIRApp.configure()
+    println("KMP Initializer: Firebase project ID: ${FIRApp.defaultApp()?.options!!.projectID()}")
+}

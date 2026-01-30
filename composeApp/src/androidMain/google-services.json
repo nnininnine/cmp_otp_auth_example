@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125049545275",
+    "project_id": "cmp-otp-auth-example",
+    "storage_bucket": "cmp-otp-auth-example.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125049545275:android:3cfa7f09b524f8df94f21e",
+        "android_client_info": {
+          "package_name": "org.nnininnine.cmp_otp_auth_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBTn__riUPNB9LZcSsCobvkXzq2sGr-cQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
